@@ -1,4 +1,3 @@
-
 * {
     margin: 0px;
     padding: 0px;
@@ -6,6 +5,10 @@
 
 .border-red {
     border: 1.5px dotted red;
+}
+
+.none-select {
+    user-select: none;
 }
 
 .background1 {
@@ -24,10 +27,6 @@ header {
     align-items: center;
 }
 
-.none-select {
-    user-select: none;
-}
-
 .logo {
     width: 140px;
     height: 28px;
@@ -36,7 +35,6 @@ header {
 
 .header-list {
     display: flex;
-    height: 60px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -50,7 +48,6 @@ header p {
     height: 47px;
     line-height: 47px;
     top: 18px;
-    /* margin-right: 0.7%; */
 }
 
 header .button-menu {
@@ -107,6 +104,7 @@ header p:active {
     font-family: Roboto;
     font-size: 14px;
     font-weight: 700;
+    margin-left: 2px;
 }
 
 .get-started-button:hover {
@@ -354,13 +352,14 @@ header p:active {
     display: flex;
     width: 100%;
     height: 412px;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-top: 100px;
 }
 
 .compliance {
     display: flex;
     align-items: center;
+    margin-right: 4%;
 }
 
 .compliance-top {
@@ -382,7 +381,7 @@ header p:active {
     margin: 16px 0px 0px -228px;
 }
 
-.compliance img {
+.compliance img:first-of-type {
     width: 64px;
     height: 37px;
 }
@@ -390,8 +389,7 @@ header p:active {
 .block-right {
     position: relative;
     width: 470px;
-    height: 390px;
-    margin-top: 22px;
+    margin: 22px 0px 0px 4%;
 }
 
 .zero-one {
@@ -451,17 +449,15 @@ header p:active {
 }
 
 .font-h {
-    position: absolute;
     font-family: Roboto;
     font-size: 53px;
     font-weight: 700;
-    top: 42.63px;
+    margin-top: 20px;
     color: #322F2E;
 }
 
 .font-p {
-    position: absolute;
-    top: 253.63px;
+    margin-top: 20px;
     font-family: Roboto;
     font-size: 21px;
     font-weight: 500;
@@ -470,8 +466,7 @@ header p:active {
 }
 
 .button-take {
-    position: absolute;
-    top: 342.63px;
+    margin-top: 30px;
     width: 146px;
     height: 47px;
     text-align: center;
@@ -779,7 +774,22 @@ footer .socials img {
         margin-right: 0.5%;
     }
 
-    /*----------------------*/
+    .block-anti-money {
+        height: 300px;
+    }
+
+    .compliance .begin-block img {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .font-h {
+        font-size: 30px;
+    }
+    
+    .font-p {
+        font-size: 15px;
+    }
 
     .block-email {
         display: flex;
@@ -833,7 +843,52 @@ footer .socials img {
     }
     
     .email-right button {
-        left: -35px;
+        left: -31.5px;
+        width: 23px;
+        height: 23px;
+        background-size: 23px 23px;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    header {
+        height: 35px;
+        margin-top: 7px;
+        justify-content: space-between;
+    }
+    
+    .logo {
+        width: 80px;
+        height: auto;
+        margin: auto 0px auto 70px;
+    }
+
+    .get-started-button {
+        width: 95px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 13px;
+        margin-left: 2px;
+    }
+
+    header .button-menu {
+        width: 35px;
+        height: 35px;
+    }
+
+    header .button-menu img {
+        width: 25px;
+        height: auto;
+    }
+
+    .header-list {
+        margin-right: 30px;
+    }
+
+    .logo {
+        margin: auto 0px auto 30px;
     }
 
 }
