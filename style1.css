@@ -116,7 +116,7 @@ header p:active {
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 349px;
+    height: auto;
     margin: 138px auto;
 }
 
@@ -200,7 +200,7 @@ header p:active {
     box-shadow: inset 0px 0px 7px 1px gray;
 }
 
-.block-brands {
+.brands {
     display: flex;
     width: 100%;
     align-items: center;
@@ -208,7 +208,7 @@ header p:active {
     flex-wrap: wrap;
 }
 
-.block-brands .brands img {
+.brands img {
     width: 255px;
     height: 95px;
 }
@@ -258,7 +258,7 @@ header p:active {
     height: auto;
 }
 
-.for-cards {
+.cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -891,4 +891,91 @@ footer .socials img {
         margin: auto 0px auto 30px;
     }
 
+    .block-rely {
+        font-size: 50px;
+        height: 60px;
+        line-height: 60px;
+    }
+    
+    .block-first {
+        margin: 138px auto 50px auto;
+    }
+
+    .block-first-text {
+        width: 320px;
+        height: auto;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    
+    .learn-more-button1 {
+        width: 95px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 13px;
+        margin-left: 2px;
+    }
+
+    .brands img {
+        width: 155px;
+        height: auto;
+    }
+
+    .whats-button {
+        width: 140px;
+        height: 35px;
+        font-size: 13px;
+        line-height: 35px;
+    }
+
+    .whats-button img {
+        width: 17px;
+        height: 17px;
+    }
+
+}
+
+@media (max-width: 520px) {
+
+    .cards {
+        gap: 10px;
+        margin-top: 60px;
+    }
+    
+    .top-cards, .buttom-cards {
+        width: 150px;
+        height: 210px;
+        }
+    
+    .top-cards img {
+        width: 80px;
+        height: auto;
+        margin-top: 7px;
+    }
+    
+    .buttom-cards img {
+        width: 80px;
+        height: auto;
+        margin-top: 7px;
+    }
+    
+    .text-h {
+        margin-top: 7px;
+        font-size: 13px;
+        font-weight: 700;
+    }
+    
+    .text-p {
+        margin-top: 7px;
+        font-size: 8px;
+        font-weight: 500;
+    }
+    
+    .learn-more-button2 {
+        width: 75px;
+        height: 30px;
+        font-size: 12px;
+        line-height: 30px;
+        margin-top: 15px;
+    }
 }
