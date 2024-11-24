@@ -48,6 +48,7 @@ header p {
     height: 47px;
     line-height: 47px;
     top: 18px;
+    transition-duration: 250ms;
 }
 
 header .button-menu {
@@ -104,7 +105,7 @@ header p:active {
     font-family: Roboto;
     font-size: 14px;
     font-weight: 700;
-    margin-left: 2px;
+    margin: 0px 2px;
 }
 
 .get-started-button:hover {
@@ -189,6 +190,7 @@ header p:active {
     border-radius: 50vh;
     color: white;
     margin-top: 14px;
+    transition-duration: 250ms;
 }
 
 .learn-more-button1:hover {
@@ -224,6 +226,7 @@ header p:active {
     line-height: 47px;
     color: #C47344;
     margin: 0px auto;
+    transition-duration: 250ms;
 }
 
 .whats-button:hover {
@@ -240,12 +243,12 @@ header p:active {
 .whats-button img {
     width: 20px;
     height: 20px;
-    margin: auto 0px auto 7px;
+    margin: auto 0px auto 5px;
     border-radius: 50vh;
 }
 
 .whats-button img:active {
-    box-shadow: inset 0px 0px 7px 1px gray;
+    box-shadow: inset 0px 0px 5px 1px gray;
     cursor: pointer;
 }
 
@@ -329,16 +332,17 @@ header p:active {
     border-radius: 50vh;
     color: #000000;
     margin-top: 25px;
-    border: 2px solid #E1DED9
+    border: 2px solid #E1DED9;
+    transition-duration: 250ms;
 }
 
 .learn-more-button2:hover {
-    box-shadow: 0px 0px 7px 1px gray;
+    box-shadow: 0px 0px 5px 1px gray;
     cursor: pointer;
 }
 
 .learn-more-button2:active {
-    box-shadow: inset 0px 0px 7px 1px gray;
+    box-shadow: inset 0px 0px 5px 1px gray;
     cursor: pointer;
 }
 
@@ -369,6 +373,13 @@ header p:active {
     background-color: #32686F;
     border-radius: 10px;
     box-shadow: 1px 1px 12px 0px #0000008C;
+}
+
+.compliance-top:hover {
+    position: relative;
+    top: 8px;
+    left: -8px;
+    box-shadow: none;
 }
 
 .compliance-buttom {
@@ -477,15 +488,16 @@ header p:active {
     font-size: 15px;
     font-weight: 700;
     line-height: 48px;
+    transition-duration: 250ms;
 }
 
 .button-take:hover {
-    box-shadow: 0px 0px 7px 1px gray;
+    box-shadow: 0px 0px 5px 1px gray;
     cursor: pointer;
 }
 
 .button-take:active {
-    box-shadow: inset 0px 0px 7px 1px gray;
+    box-shadow: inset 0px 0px 5px 1px gray;
     cursor: pointer;
 }
 
@@ -555,6 +567,10 @@ header p:active {
     height: 32px;
 }
 
+.block-email input:focus {
+    box-shadow: 0px 1px 12px 0px #00000053;
+}
+
 .input-area {
     margin-top: 40px;
     display: flex;
@@ -570,6 +586,7 @@ header p:active {
     left: -40px;
     background-image: url(img/arrow-right-black.png);
     background-size: 29px;
+    transition-duration: 250ms;
 }
 
 .block-email input:focus {
@@ -755,7 +772,12 @@ footer .socials img {
     cursor: pointer;
 }
 
-@media (max-width: 1050px) {
+footer .socials img:hover {
+    position: relative;
+    top: 3px;
+}
+
+@media screen and (max-width: 1050px) {
 
     .header-list :not(p:nth-of-type(7), button:nth-of-type(1), img) {
         display: none;
@@ -850,7 +872,7 @@ footer .socials img {
 
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
 
     header {
         height: 35px;
@@ -869,7 +891,7 @@ footer .socials img {
         height: 35px;
         line-height: 35px;
         font-size: 13px;
-        margin-left: 2px;
+        margin: 0px 2px;
     }
 
     header .button-menu {
@@ -931,15 +953,6 @@ footer .socials img {
         width: 17px;
         height: 17px;
     }
-
-
-
-
-
-
-
-
-
     
     .block-anti-money {
         height: 300px;
@@ -982,9 +995,136 @@ footer .socials img {
         font-weight: 700;
         line-height: 35px;
     }
+
+    
+
+
+
+
+
+
+
+    footer {
+        margin: 100px 3% 3% 3%;
+    }
+    
+    footer .left {
+        width: 158px;
+        height: auto;
+    }
+    
+    footer .left img:first-of-type {
+        width: 100px;
+        height: auto;
+    }
+    
+    footer .left img:nth-of-type(2) {
+        width: 55px;
+        height: 55px;
+        margin-top: 10px;
+    }
+    
+    footer .left img:nth-of-type(3) {
+        width: 100px;
+        height: auto;
+        margin-top: 10px;
+    }
+    
+    footer .left p:first-of-type {
+        font-size: 9px;
+        width: 150px;
+        margin-top: 20px;
+    }
+    
+    footer .left p:nth-of-type(2) {
+        font-size: 9px;
+        margin-top: 20px;
+    }
+    
+    footer .left p:nth-of-type(3) {
+        font-size: 8px;
+        margin-top: 20px;
+    }
+
+    footer .left p:nth-of-type(4) {
+        margin-top: 10px;
+        width: 150px;
+        font-size: 9px;
+    }
+
+    footer .left p:nth-of-type(5) {
+        margin-top: 10px;
+        font-size: 9px;
+    }
+    
+    footer .right div p {
+        font-size: 9px;
+        margin: 5px 2px;
+    }
+    
+    footer .right div p:first-of-type {
+        font-size: 9px;
+    }
+    
+    footer .block-new {
+        display: none;
+    }
+    
+    .inline-new > span {
+        font-size: 9px;
+    }
+    
+    footer .buttom img {
+        width: 100px;
+        height: auto;
+    }
+    
+    footer .buttom p:first-of-type {
+        font-size: 9px;
+    }
+    
+    footer .socials img {
+        width: 20px;
+        height: 20px;
+    }
+
 }
 
-@media (max-width: 520px) {
+@media screen and (max-width: 730px) {
+
+    .block-email {
+        height: auto;
+        margin: 150px 8% 100px 8%;
+        margin-top: 300px;
+    }
+
+    .email-img {
+        display: none;
+    }
+    
+    .email-right {
+        margin: 40px 30px;
+        height: auto;
+    }
+    
+    .email-text-h {
+        margin-top: 0px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    
+    .email-text-p {
+        margin: 30px 20px 0px 0px;
+        font-size: 15px;
+    }
+    
+    .block-email input {
+        width: 200px;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 520px) {
 
     .cards {
         gap: 10px;
@@ -994,7 +1134,7 @@ footer .socials img {
     .top-cards, .buttom-cards {
         width: 160px;
         height: 220px;
-        }
+    }
     
     .top-cards img {
         width: 90px;
@@ -1027,4 +1167,5 @@ footer .socials img {
         line-height: 30px;
         margin-top: 15px;
     }
+
 }
