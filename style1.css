@@ -31,6 +31,7 @@ header {
     width: 140px;
     height: 28px;
     margin: auto 0px auto 70px;
+    cursor: pointer;
 }
 
 .header-list {
@@ -53,6 +54,7 @@ header p {
 
 header .button-menu {
     display: none;
+    transition-duration: 250ms;
 }
 
 header .button-menu img {
@@ -213,6 +215,7 @@ header p:active {
 .brands img {
     width: 255px;
     height: 95px;
+    cursor: pointer;
 }
 
 .whats-button {
@@ -367,16 +370,18 @@ header p:active {
 }
 
 .compliance-top {
-    display: block;
     width: 220px;
     height: 260px;
     background-color: #32686F;
     border-radius: 10px;
     box-shadow: 1px 1px 12px 0px #0000008C;
+    top: 0;
+    left: 0;
+    transition: all 0.25s ease-in-out;
+    position: relative;
 }
 
 .compliance-top:hover {
-    position: relative;
     top: 8px;
     left: -8px;
     box-shadow: none;
@@ -492,7 +497,7 @@ header p:active {
 }
 
 .button-take:hover {
-    box-shadow: 0px 0px 5px 1px gray;
+    box-shadow: 0px 0px 5px 0px gray;
     cursor: pointer;
 }
 
@@ -567,17 +572,26 @@ header p:active {
     height: 32px;
 }
 
-.block-email input:focus {
+.block-email input:focus, .block-email input:hover {
     box-shadow: 0px 1px 12px 0px #00000053;
 }
 
+.block-email input:active {
+    box-shadow: 0px 1px 12px 0px #0000009e;
+}
+
 .input-area {
-    margin-top: 40px;
+    position: relative;
     display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+    width: 380px;
     align-items: center;
 }
 
-.email-right button {
+/*////////////current////////////*/
+
+/* .email-right button {
     border: none;
     position: relative;
     width: 29px;
@@ -587,7 +601,36 @@ header p:active {
     background-image: url(img/arrow-right-black.png);
     background-size: 29px;
     transition-duration: 250ms;
+    display: none;
 }
+
+.input-area:hover button {
+    display: revert;
+} */
+
+.email-right button {
+    border: none;
+    position: absolute;
+    display: flex;
+    margin-right: 350px;
+    opacity: 0;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-image: url(img/arrow-right-black.png);
+    background-size: 5px;
+    transition-duration: 250ms;
+}
+
+.input-area:hover button {
+    margin-right: 17px;
+    opacity: 1;
+    width: 29px;
+    height: 29px;
+    background-size: 29px;
+}
+
+/*////////////////////////*/
 
 .block-email input:focus {
     outline: none;
@@ -618,18 +661,21 @@ footer .left {
 footer .left img:first-of-type {
     width: 145.8px;
     height: 28.67px;
+    cursor: pointer;
 }
 
 footer .left img:nth-of-type(2) {
     width: 76px;
     height: 76px;
     margin-top: -15px;
+    cursor: pointer;
 }
 
 footer .left img:nth-of-type(3) {
     width: 158px;
     height: 67px;
     margin-top: -15px;
+    cursor: pointer;
 }
 
 footer .left p:first-of-type {
@@ -638,6 +684,7 @@ footer .left p:first-of-type {
     font-weight: 400;
     color: #313131;
     width: 313px;
+    cursor: default;
 }
 
 footer .left p:nth-of-type(2) {
@@ -646,6 +693,7 @@ footer .left p:nth-of-type(2) {
     font-weight: 500;
     color: #313131;
     margin-top: 15px;
+    cursor: default;
 }
 
 footer .left p:nth-of-type(3) {
@@ -654,14 +702,24 @@ footer .left p:nth-of-type(3) {
     font-weight: 500;
     color: #313131;
     margin-top: 15px;
+    cursor: default;
+
 }
 
-footer .left p:nth-of-type(4), .left p:nth-of-type(5) {
+footer .left p:nth-of-type(4),
+.left p:nth-of-type(5) {
     font-family: Roboto;
     font-size: 13px;
     font-weight: 400;
     color: #D3D3D3;
     width: 314px;
+    cursor: default;
+}
+
+footer .left p:nth-of-type(4):hover,
+.left p:nth-of-type(5):hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 footer .top {
@@ -742,6 +800,7 @@ footer .buttom {
 footer .buttom img {
     width: 161px;
     height: 76px;
+    cursor: pointer;
 }
 
 footer .buttom p:first-of-type {
@@ -777,7 +836,7 @@ footer .socials img:hover {
     top: 3px;
 }
 
-@media screen and (max-width: 1050px) {
+@media (max-width: 1050px) {
 
     .header-list :not(p:nth-of-type(7), button:nth-of-type(1), img) {
         display: none;
@@ -872,7 +931,7 @@ footer .socials img:hover {
 
 }
 
-@media screen and (max-width: 800px) {
+@media (max-width: 800px) {
 
     header {
         height: 35px;
@@ -996,14 +1055,6 @@ footer .socials img:hover {
         line-height: 35px;
     }
 
-    
-
-
-
-
-
-
-
     footer {
         margin: 100px 3% 3% 3%;
     }
@@ -1090,7 +1141,7 @@ footer .socials img:hover {
 
 }
 
-@media screen and (max-width: 730px) {
+@media (max-width: 730px) {
 
     .block-email {
         height: auto;
@@ -1124,7 +1175,7 @@ footer .socials img:hover {
     }
 }
 
-@media screen and (max-width: 520px) {
+@media (max-width: 520px) {
 
     .cards {
         gap: 10px;
