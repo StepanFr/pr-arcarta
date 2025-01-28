@@ -1,3 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link rel="shortcut icon" href="img/figma-logo.png" type="image/png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style1.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Acarta</title>
+    </head>
+
+    <body class="background1">
+        <header>
+            <img class="logo" src="img/logo.png">
+            <div class="header-list none-select">
+                <p>What is arcarta?</p>
+                <p>Solutions</p>
+                <p>Resources</p>
+                <p>FAQs</p>
+                <p>Contact</p>
+                <p>Login</p>
+                <p class="get-started-button">Get Started</p>
+                <button class="button-menu"><img src="img/menu.png"></button>
+            </div>
+        </header>
+
+        <main>
+
+            <div class="block-first">
+
+                <div class="block-new-the-art">
+                    <div class="block-new">
+                        <p>New</p>
+                    </div>
+                    <div class="block-the-art">
+                        <p>The Art Market Report</p>
+                    </div>
+                </div>
+
+                <div class="block-rely">
+                    <p>Rely on us</p>
+                </div>
+
+                <div class="block-first-text">
+                    <p>Our Customer Due Diligence platform helps you avoid fines or losing clients due to AML while
+                        protecting you from cybercrime.</p>
+                </div>
+
+                <div>
+                    <p class="learn-more-button1 none-select">Learn More</p>
+                </div>
+
+            </div>
+
+            <div class="brands">
+                <div>
+                    <img src="img/colnaghi.png">
+                </div>
+                <div>
+                    <img src="img/luxembourg.png">
+                </div>
+                <div>
+                    <img src="img/tomasso.png">
+                </div>
+                <div>
+                    <img src="img/cristea.png">
+                </div>
+            </div>
+
+            <div>
+                <div class="whats-button none-select">
+                    <p>What is arcarta?</p>
+                    <img src="img/arrow-right.png">
+                </div>
+            </div>
+
+            <div class="big-picture">
+                <img src="img/big-picture.png">
+            </div>
+
+            <div class="cards">
+
+                <div class="top-cards">
+                    <img src="img/first-picture.png">
+                    <div class="centralization-in-cards">
+                        <p class="text-h">For Art Dealers</p>
+                        <p class="text-p">Galleries and independent art dealers</p>
+                        <div class="learn-more-button2 none-select">
+                            <p>Learn More</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="top-cards">
+                    <img src="img/second-picture.png">
+                    <div class="centralization-in-cards">
+                        <p class="text-h">For Advisors</p>
+                        <p class="text-p">Advisors, agents and consultantss</p>
+                        <div class="learn-more-button2 none-select">
+                            <p>Learn More</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="buttom-cards">
+                    <img src="img/third-picture.png">
+                    <div class="centralization-in-cards">
+                        <p class="text-h">For Auctioneers</p>
+                        <p class="text-p">Online and offline auctioneers</p>
+                        <div class="learn-more-button2 none-select">
+                            <p>Learn More</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="buttom-cards">
+                    <img src="img/fourth-picture.png">
+                    <div class="centralization-in-cards">
+                        <p class="text-h">For Buyers & Collectors</p>
+                        <p class="text-p">Receiving Invoices, making card payments and sending your <br> ID and address
+                            documents</p>
+                        <div class="learn-more-button2 none-select">
+                            <p>Learn More</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="block-anti-money">
+
+                <div class="compliance">
+
+                    <div class="compliance-top">
+                        <div class="zero-one">
+                            <p>01</p>
+                        </div>
+                        <div class="image1">
+                            <img src="img/image1.png">
+                        </div>
+                        <div class="p-in-01">
+                            <p>Compliance Quiz</p>
+                        </div>
+                        <div class="white-line"></div>
+                        <div class="begin-block">
+                            <p>Begin</p>
+                            <img src="img/arrow-min.png">
+                        </div>
+                    </div>
+
+                    <div class="compliance-buttom"></div>
+
+                </div>
+
+                <div class="block-right">
+                    <div class="block-new">
+                        <p>New</p>
+                    </div>
+                    <div class="font-h">
+                        <p>Does Anti-money Laundering affect you?</p>
+                    </div>
+                    <div class="font-p">
+                        <p>A short, interactive quiz to check if your art business is affected by 5AMLD regulation.</p>
+                    </div>
+
+                    <div class="button-take none-select">
+                        <p>Take the Quiz</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="block-email">
+                <div class="email-img">
+                    <img src="img/image-for-email.png">
+                </div>
+
+                <div class="email-right">
+                    <div class="email-text-h">
+                        <p>Art world insight.</p>
+                    </div>
+                    <div class="email-text-p">
+                        <p>Receive our newsletter direct to your inbox to follow updates to legislation and the EU
+                            art-market's response.</p>
+                    </div>
+                    <div class="input-area">
+                        <input type="text" placeholder="Your email">
+                        <button></button>
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+
+        <footer>
+
+            <div>
+
+                <div class="top">
+
+                    <div class="left">
+                        <img src="img/logo.png">
+                        <p>Our Customer Due Diligence platform helps you avoid fines or losing clients due to AML while protecting you from cybercrime.</p>
+                        <p>Approved Service Provider</p>
+                        <img src="img/bada-est.png">
+                        <p>In Partnership with</p>
+                        <img src="img/london-art-week.png">
+                        <p>Registered with the Information Commissioner's Office (ICO) Registration number: ZA679248</p>
+                        <p>© Arc-Pay Ltd 2021</p>
+                    </div>
+
+                    <div class="right">
+
+                        <div>
+                            <p>Links</p>
+
+                            <p>Home</p>
+                            <p>About us</p>
+                            <p>Why arcarta</p>
+                            <p>Success Stories</p>
+                            <p>FAQ's</p>
+                            <p>Contact Us</p>
+                            <p>Join</p>
+                            <p>Invite</p>
+                            <p>Compliance Quiz</p>
+                            <p>ID Document Quiz</p>
+                        </div>
+
+                        <div>
+                            <p>Solutions</p>
+
+                            <p>For Galleries</p>
+                            <p>For Advisors</p>
+                            <p>For Auctioneers</p>
+                            <p>For Secure Payments</p>
+                            <p>For Buyers & Collectors</p>
+                            <p>Online AML Training</p>
+                        </div>
+
+                        <div>
+                            <p>Resources</p>
+
+                            <p>Articles</p>
+                            <p>Resources</p>
+                            <p>Help Centre</p>
+                            <p>The Bigger Picture</p>
+                            <p>Login</p>
+                            <p>Brand Assets</p>
+                            <div class="inline-new">
+                                <span>The Art Market Report</span>
+                                <div class="block-new">
+                                    <span>New</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="buttom">
+                <img src="img/footer-people.png">
+                <div class="socials">
+                    <p>Privacy & Terms</p>
+                    <img src="img/twitter.png">
+                    <img src="img/instagram.png">
+                    <img src="img/youtube.png">
+                </div>
+            </div>
+
+        </footer>
+
+    </body>
+
+</html>
+
+
+
+
+
+
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -38,24 +327,18 @@ header {
     display: flex;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
+    font-style: normal;
     margin-right: 70px;
 }
 
-header p, header span {
+header p {
     text-align: center;
     line-height: 60px;
     width: 90px;
     height: 47px;
     line-height: 47px;
+    top: 18px;
     transition-duration: 250ms;
-}
-
-header span {
-    z-index: 1;
-}
-
-header p {
-    animation: header-list 1s ease-in-out;
 }
 
 header .button-menu {
@@ -73,7 +356,7 @@ header .button-menu:hover {
 }
 
 header .button-menu:active {
-    box-shadow: inset 0px 0px 4px 1px gray;
+    box-shadow: inset 0px 0px 7px 1px gray;
 }
 
 header .button-menu img {
@@ -91,16 +374,16 @@ header p:first-child {
     top: 18px;
 }
 
-header p:hover, header span:hover {
+header p:hover {
     background-color: #f4ebe2;
-    box-shadow: 0px 0px 4px 1px gray;
+    box-shadow: 0px 0px 7px 1px gray;
     border-radius: 50vh;
     cursor: pointer;
 }
 
-header p:active, header span:active {
+header p:active {
     background-color: #f4ebe2;
-    box-shadow: inset 0px 0px 4px 1px gray;
+    box-shadow: inset 0px 0px 7px 1px gray;
 }
 
 .get-started-button {
@@ -131,7 +414,6 @@ header p:active, header span:active {
 
 .block-new-the-art {
     display: flex;
-    position: relative;
     width: 230px;
     height: 25px;
     line-height: 25px;
@@ -148,7 +430,6 @@ header p:active, header span:active {
     line-height: 25px;
     text-align: center;
     color: white;
-    animation: move-new 1s ease-in-out;
 }
 
 .block-the-art {
@@ -161,9 +442,8 @@ header p:active, header span:active {
     text-align: center;
     background-color: #f3e7db;
     border-radius: 50vh;
-    color: #4D4D4D;
     margin-left: 42px;
-    animation: move-art 1s ease-in-out;
+    color: #4D4D4D;
 }
 
 .block-rely {
@@ -205,12 +485,12 @@ header p:active, header span:active {
 }
 
 .learn-more-button1:hover {
-    box-shadow: 0px 0px 4px 1px gray;
+    box-shadow: 0px 0px 7px 1px gray;
     cursor: pointer;
 }
 
 .learn-more-button1:active {
-    box-shadow: inset 0px 0px 4px 1px gray;
+    box-shadow: inset 0px 0px 7px 1px gray;
 }
 
 .brands {
@@ -243,13 +523,13 @@ header p:active, header span:active {
 
 .whats-button:hover {
     background-color: #f4ebe2;
-    box-shadow: 0px 0px 4px 1px gray;
+    box-shadow: 0px 0px 7px 1px gray;
     border-radius: 50vh;
     cursor: pointer;
 }
 
 .whats-button:active {
-    box-shadow: inset 0px 0px 4px 1px gray;
+    box-shadow: inset 0px 0px 7px 1px gray;
 }
 
 .whats-button img {
@@ -260,7 +540,7 @@ header p:active, header span:active {
 }
 
 .whats-button img:active {
-    box-shadow: inset 0px 0px 4px 1px gray;
+    box-shadow: inset 0px 0px 5px 1px gray;
     cursor: pointer;
 }
 
@@ -349,12 +629,12 @@ header p:active, header span:active {
 }
 
 .learn-more-button2:hover {
-    box-shadow: 0px 0px 4px 1px gray;
+    box-shadow: 0px 0px 5px 1px gray;
     cursor: pointer;
 }
 
 .learn-more-button2:active {
-    box-shadow: inset 0px 0px 4px 1px gray;
+    box-shadow: inset 0px 0px 5px 1px gray;
     cursor: pointer;
 }
 
@@ -590,17 +870,12 @@ header p:active, header span:active {
 }
 
 .input-area {
-    position: relative;
-    display: flex;
-    justify-content: flex-end;
     margin-top: 40px;
-    width: 380px;
+    display: flex;
     align-items: center;
 }
 
-/*////////////current////////////*/
-
-/* .email-right button {
+.email-right button {
     border: none;
     position: relative;
     width: 29px;
@@ -610,36 +885,7 @@ header p:active, header span:active {
     background-image: url(img/arrow-right-black.png);
     background-size: 29px;
     transition-duration: 250ms;
-    display: none;
 }
-
-.input-area:hover button {
-    display: revert;
-} */
-
-.email-right button {
-    border: none;
-    position: absolute;
-    display: flex;
-    margin-right: 350px;
-    opacity: 0;
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background-image: url(img/arrow-right-black.png);
-    background-size: 5px;
-    transition-duration: 250ms;
-}
-
-.input-area:hover button {
-    margin-right: 17px;
-    opacity: 1;
-    width: 29px;
-    height: 29px;
-    background-size: 29px;
-}
-
-/*////////////////////////*/
 
 .block-email input:focus {
     outline: none;
@@ -1228,19 +1474,4 @@ footer .socials img:hover {
         margin-top: 15px;
     }
 
-}
-
-@keyframes header-list {
-    from {
-        margin-right: -97px;
-        opacity: 0;
-    }
-}
-
-@keyframes move-new {
-    from { margin-left: 42px; }
-}
-
-@keyframes move-art {
-    from { margin-left: 20px; }
 }
